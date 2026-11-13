@@ -1,0 +1,14 @@
+{
+  "name": "civic-ops",
+  "version": "0.1.0",
+  "description": "Local-first AI job search pipeline for government jobs only: federal, state, county, city, township, and other local employers within your chosen radius.",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "engines": { "node": ">=22.0.0" },
+  "bin": { "civic-ops": "src/cli.mjs" },
+  "scripts": {
+    "start": "node src/cli.mjs serve",
+    "test": "node --test test/core.test.mjs test/searx.test.mjs test/joblist.test.mjs test/applitrack.test.mjs test/boards.test.mjs test/prep.test.mjs"
+  }
+}

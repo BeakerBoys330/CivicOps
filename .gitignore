@@ -1,0 +1,15 @@
+# Personal data: your CV, profile, API keys, job data and generated files stay on this machine.
+cv.md
+proof-points.md
+config/profile.json
+config/secrets.json
+data/
+reports/
+output/
+node_modules/
+# Local tool settings and the prepared upload copy.
+.claude/
+github-upload/
+my-access-requests.md
+.env
+*.log
